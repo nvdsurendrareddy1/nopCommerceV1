@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" xmlns="https://logging.apache.org/xml/ns"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <Properties>
+        <Property name="logDir">logs</Property>
+        <Property name="archiveDir">logs/archive</Property>
+    </Properties>
+
+    <Appenders>
+
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout
+                pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %c{1} - %msg%n"/>
+        </Console>
+
+        <!-- Routing Appender for Dynamic Test Logs -->
+        <Routing name="Routing">
+            <Routes pattern="${ctx:testName}">
+                <Route>
+
+                    <RollingFile
+                        name="Rolling-${ctx:testName}"
+                        fileName="${logDir}/${ctx:testName}.log"
+                        filePattern="${archiveDir}/${ctx:testName}-%d{yyyy-MM-dd-HH-mm}-%i.log.gz">
+
+                        <PatternLayout
+                            pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %c{1} - %msg%n"/>
+
+                        <Policies>
+                            <SizeBasedTriggeringPolicy size="10MB"/>
+                        </Policies>
+
+                        <DefaultRolloverStrategy max="30"/>
+
+                    </RollingFile>
+
+                </Route>
+            </Routes>
+        </Routing>
+
+    </Appenders>
+
+    <Loggers>
+        <!-- avoid duplicated logs with additivity=false -->
+        <Logger name="surendra" level="debug" additivity="false">
+            <!--<AppenderRef ref="Rolling-${ctx:testName}"/>-->
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <!-- Root Logger -->
+        <Root level="DEBUG">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="Routing"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>

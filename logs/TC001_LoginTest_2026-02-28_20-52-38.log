@@ -1,0 +1,7 @@
+2026-02-28 20:52:39.458 [main] INFO  TC001_LoginTest - **** TC001_LoginTest case is started ****
+2026-02-28 20:52:40.867 [main] INFO  TC001_LoginTest - Entering Registration Details
+2026-02-28 20:52:45.769 [main] INFO  TC001_LoginTest - Entering Registration Details Entered
+2026-02-28 20:52:47.083 [main] INFO  TC001_LoginTest - Registration Results Page Opened
+2026-02-28 20:52:47.216 [main] INFO  TC001_LoginTest - Registration Results Page Closed
+2026-02-28 20:52:53.120 [main] INFO  TC001_LoginTest - Login successful and entered in to Welcome Page
+2026-02-28 20:52:53.316 [main] INFO  TC001_LoginTest - **** TC001_LoginTest case is successfully executed ****

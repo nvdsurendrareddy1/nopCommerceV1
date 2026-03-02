@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-02T13:49:29 IST" name="Suite" finished-at="2026-03-02T13:51:00 IST" duration-ms="90674">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC001_RegisterTest.verifyRegistration()[pri:0, instance:testCases.TC001_RegisterTest@32910148]" name="verifyRegistration" class="testCases.TC001_RegisterTest"/>
+        <method signature="TC001_RegisterTest.verifyRegistration()[pri:0, instance:testCases.TC001_RegisterTest@2beee7ff]" name="verifyRegistration" class="testCases.TC001_RegisterTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2026-03-02T13:49:29 IST" name="Linux Edge" finished-at="2026-03-02T13:50:13 IST" duration-ms="43451">
+      <class name="testCases.TC001_RegisterTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_RegisterTest@32910148]" started-at="2026-03-02T13:49:31 IST" name="setup" finished-at="2026-03-02T13:49:47 IST" duration-ms="16118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegistration()[pri:0, instance:testCases.TC001_RegisterTest@32910148]" started-at="2026-03-02T13:49:47 IST" name="verifyRegistration" finished-at="2026-03-02T13:50:12 IST" duration-ms="25092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistration -->
+        <test-method is-config="true" signature="clearContext()[pri:0, instance:testCases.TC001_RegisterTest@32910148]" started-at="2026-03-02T13:50:12 IST" name="clearContext" finished-at="2026-03-02T13:50:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearContext -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_RegisterTest@32910148]" started-at="2026-03-02T13:50:12 IST" name="teardown" finished-at="2026-03-02T13:50:13 IST" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC001_RegisterTest -->
+    </test> <!-- Linux Edge -->
+    <test started-at="2026-03-02T13:50:18 IST" name="Linux Firefox" finished-at="2026-03-02T13:51:00 IST" duration-ms="41913">
+      <class name="testCases.TC001_RegisterTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_RegisterTest@2beee7ff]" started-at="2026-03-02T13:50:18 IST" name="setup" finished-at="2026-03-02T13:50:32 IST" duration-ms="13812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegistration()[pri:0, instance:testCases.TC001_RegisterTest@2beee7ff]" started-at="2026-03-02T13:50:32 IST" name="verifyRegistration" finished-at="2026-03-02T13:50:59 IST" duration-ms="26973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistration -->
+        <test-method is-config="true" signature="clearContext()[pri:0, instance:testCases.TC001_RegisterTest@2beee7ff]" started-at="2026-03-02T13:50:59 IST" name="clearContext" finished-at="2026-03-02T13:50:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearContext -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_RegisterTest@2beee7ff]" started-at="2026-03-02T13:50:59 IST" name="teardown" finished-at="2026-03-02T13:51:00 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC001_RegisterTest -->
+    </test> <!-- Linux Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

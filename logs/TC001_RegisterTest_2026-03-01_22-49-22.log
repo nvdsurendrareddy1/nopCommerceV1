@@ -1,0 +1,7 @@
+2026-03-01 22:49:22.564 [TestNG-tests-2] INFO  TC001_RegisterTest - **** TC001_RegisterTest case is started ****
+2026-03-01 22:49:25.592 [TestNG-tests-2] INFO  TC001_RegisterTest - Entering Registration Details
+2026-03-01 22:49:29.572 [TestNG-tests-2] INFO  TC001_RegisterTest - Entering Registration Details Entered
+2026-03-01 22:49:30.757 [TestNG-tests-2] INFO  TC001_RegisterTest - Registration Results Page Opened
+2026-03-01 22:49:31.012 [TestNG-tests-2] INFO  TC001_RegisterTest - Registration Results Page Closed
+2026-03-01 22:49:37.941 [TestNG-tests-2] INFO  TC001_RegisterTest - Login successful and entered in to Welcome Page
+2026-03-01 22:49:38.198 [TestNG-tests-2] INFO  TC001_RegisterTest - **** TC001_RegisterTest case is successfully executed ****

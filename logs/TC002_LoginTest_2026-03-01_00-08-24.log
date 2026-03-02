@@ -1,0 +1,4 @@
+2026-03-01 00:08:24.228 [main] INFO  TC002_LoginTest - **** TC001_LoginTest case is started ****
+2026-03-01 00:08:27.488 [main] INFO  TC002_LoginTest - Clicked on login button
+2026-03-01 00:08:30.236 [main] INFO  TC002_LoginTest - Successfully Logged into site
+2026-03-01 00:08:30.529 [main] INFO  TC002_LoginTest - **** TC001_LoginTest case is successfully executed ****
